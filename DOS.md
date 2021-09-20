@@ -37,7 +37,7 @@ Intel Celeron @ 600MHz.
    the target directory:
    ````
 
-      C:\> mkdir C:\\MEDLEY 
+      C:\> mkdir C:\MEDLEY 
       C:\> copy /B C:\\TEMP\\DOS-MASTER\\DOS486\\MEDLEY.EXE C:\\MEDLEY
       C:\> copy /B C:\\TEMP\\DOS-MASTER\\DOS486\\EMUL.EXE C:\\MEDLEY
       C:\> copy /B C:\\TEMP\\DOS-MASTER\\DOS4GW.EXE C:\\MEDLEY
@@ -66,8 +66,8 @@ by an XCL EXEC. I don't know why you have to type this.
   they are password protected. If anybody knows the proper passphrase, 
   please let me know.
 * I couldn't find other SYSOUTs than LISP.SYS or any greet or init files.
-  There us a FULL.SYS in one of the ZIP archives, though.
-* MEDLEY.EXE complains, when more than 32MB memory request, but Medley 2.0
+  There is a FULL.SYS in one of the ZIP archives, though.
+* MEDLEY.EXE complains, when more than 32MB memory are requested, but Medley 2.0
   should be able to use 64MB?
 * I couldn't get Medley to run under DOSBox yet.
 
