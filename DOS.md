@@ -38,12 +38,12 @@ Intel Celeron @ 600MHz.
    ````
 
       C:\> mkdir C:\MEDLEY 
-      C:\> copy /B C:\\TEMP\\DOS-MASTER\\DOS486\\MEDLEY.EXE C:\\MEDLEY
-      C:\> copy /B C:\\TEMP\\DOS-MASTER\\DOS486\\EMUL.EXE C:\\MEDLEY
-      C:\> copy /B C:\\TEMP\\DOS-MASTER\\DOS4GW.EXE C:\\MEDLEY
-      C:\> copy /B C:\\TEMP\\DOS-MASTER\\LISP.SYS C:\\MEDLEY
-      C:\> copy /B/S C:\\TEMP\\DOS-MASTER\\FONTS C:\\MEDLEY
-      C:\> copy /B/S C:\\TEMP\\DOS-MASTER\\LIBRARY C:\\MEDLEY
+      C:\> copy /B C:\TEMP\DOS-MASTER\DOS486\MEDLEY.EXE C:\MEDLEY
+      C:\> copy /B C:\TEMP\DOS-MASTER\DOS486\EMUL.EXE C:\MEDLEY
+      C:\> copy /B C:\TEMP\DOS-MASTER\DOS4GW.EXE C:\MEDLEY
+      C:\> copy /B C:\TEMP\DOS-MASTER\LISP.SYS C:\MEDLEY
+      C:\> copy /B/S C:\TEMP\DOS-MASTER\FONTS C:\MEDLEY
+      C:\> copy /B/S C:\TEMP\DOS-MASTER\LIBRARY C:\MEDLEY
    ````
 
 
@@ -52,12 +52,17 @@ Intel Celeron @ 600MHz.
 Run
 
 ````
-      C:\> cd \\MEDLEY
+      C:\> cd \MEDLEY
       C:\> MEDLEY LISP.SYS -m 31 -vga
 ````
 
 Then type "555\<RETURN\>" or some other text. You will then be greeted 
 by an XCL EXEC. I don't know why you have to type this.
+
+Terminate your Medley session by entering "(IL:LOGOUT)" or 
+"(LOGOUT)" in an XCL resp. Interlisp EXEC. The system
+state will be saved in "LISP.VM" and can be restored by
+using "LISP.VM" instead of "LISP.SYS".
 
 
 ## Open Points
